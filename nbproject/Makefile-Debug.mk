@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/1528565638/pgm.o \
 	${OBJECTDIR}/_ext/1528565638/testcodificar.o \
 	${OBJECTDIR}/_ext/1528565638/testimagen.o \
+	${OBJECTDIR}/_ext/2140695726/byte.o \
 	${OBJECTDIR}/imagen.o \
 	${OBJECTDIR}/main.o
 
@@ -80,6 +81,11 @@ ${OBJECTDIR}/_ext/1528565638/testimagen.o: ../../Escritorio/esteganografia\ \(al
 	${MKDIR} -p ${OBJECTDIR}/_ext/1528565638
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1528565638/testimagen.o ../../Escritorio/esteganografia\ \(alumnos\)/esteganografia\ \(alumnos\)/src/testimagen.cpp
+
+${OBJECTDIR}/_ext/2140695726/byte.o: ../../Escritorio/practica2/bloqueLed/src/byte.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/2140695726
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2140695726/byte.o ../../Escritorio/practica2/bloqueLed/src/byte.cpp
 
 ${OBJECTDIR}/imagen.o: imagen.cpp 
 	${MKDIR} -p ${OBJECTDIR}
