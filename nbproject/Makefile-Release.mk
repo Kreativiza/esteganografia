@@ -39,6 +39,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/_ext/1528565638/testcodificar.o \
 	${OBJECTDIR}/_ext/1528565638/testimagen.o \
 	${OBJECTDIR}/_ext/2140695726/byte.o \
+	${OBJECTDIR}/byte.o \
 	${OBJECTDIR}/imagen.o \
 	${OBJECTDIR}/main.o
 
@@ -86,6 +87,11 @@ ${OBJECTDIR}/_ext/2140695726/byte.o: ../../Escritorio/practica2/bloqueLed/src/by
 	${MKDIR} -p ${OBJECTDIR}/_ext/2140695726
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/2140695726/byte.o ../../Escritorio/practica2/bloqueLed/src/byte.cpp
+
+${OBJECTDIR}/byte.o: byte.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/byte.o byte.cpp
 
 ${OBJECTDIR}/imagen.o: imagen.cpp 
 	${MKDIR} -p ${OBJECTDIR}
