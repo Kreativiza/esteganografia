@@ -7,8 +7,20 @@
 
 #include "imagen.h"
 
-imagen::imagen() {
+imagen::Imagen() {
+    nfilas = 0;
+    ncolumnas = 0;
 };
 
+imagen::Imagen(int filas, int columnas){
+    nfilas = filas;
+    ncolumnas = columnas;
 
+};
+
+imagen::crear(int filas, int columnas){
+    nfilas = filas;
+    ncolumnas = columnas;
+
+};
 
