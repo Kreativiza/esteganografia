@@ -4,8 +4,8 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Imagen.h</itemPath>
       <itemPath>byte.h</itemPath>
-      <itemPath>imagen.h</itemPath>
       <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/include/pgm.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -18,9 +18,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>../../Escritorio/practica2/bloqueLed/src/byte.cpp</itemPath>
+      <itemPath>Imagen.cpp</itemPath>
       <itemPath>byte.cpp</itemPath>
-      <itemPath>imagen.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/pgm.cpp</itemPath>
       <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/testcodificar.cpp</itemPath>
@@ -83,18 +82,13 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../Escritorio/practica2/bloqueLed/src/byte.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
+      <item path="Imagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Imagen.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="byte.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="byte.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="imagen.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="imagen.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -154,18 +148,13 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="../../Escritorio/practica2/bloqueLed/src/byte.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
+      <item path="Imagen.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Imagen.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="byte.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="byte.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="imagen.cpp" ex="false" tool="1" flavor2="0">
-      </item>
-      <item path="imagen.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

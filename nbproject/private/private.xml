@@ -4,7 +4,15 @@
         <activeConfTypeElem>1</activeConfTypeElem>
         <activeConfIndexElem>0</activeConfIndexElem>
     </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/byte.cpp</file>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/main.cpp</file>
+            <file>file:/home/scldev/Escritorio/esteganografia%20(alumnos)/esteganografia%20(alumnos)/src/pgm.cpp</file>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/imagen.h</file>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/imagen.cpp</file>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/byte.h</file>
+        </group>
     </open-files>
 </project-private>
