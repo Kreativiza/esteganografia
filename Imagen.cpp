@@ -58,7 +58,7 @@ bool Imagen::leerImagen(const char nombreFichero[]){
     //1º leemos el tipo
     if(infoPGM(nombreFichero[], filas, columnas) == IMG_PGM_BINARIO){
         if(((filas*columnas) <= MAXPIXELS)){
-        return leerPGMBinario(nombreFichero[],datos,filas,columnas);
+        return leerPGMBinario(nombreFichero,datos,filas,columnas);
         }
     }else{
         return false;
@@ -67,6 +67,14 @@ bool Imagen::leerImagen(const char nombreFichero[]){
 };
 
 bool Imagen::escribirImagen(const char nombreFichero[]){
-
+    int filas, columnas;
+    
+    if(infoPGM(nombreFichero[],filas, columnas)== IMG_PGM_BINARIO){ //Si es IMG_PGM_BINARIO, establece filas y columnas
+        if(((filas*columnas) <= MAXPIXELS)){ //si el tamaño es menor o igual a MAXPIXELS
+            return escribirPGMBinario(nombreFichero,datos,filas,columnas); //Escribe el fichero y devuelve true.
+        }
+    }else{
+        return false;
+    };
 
 };
