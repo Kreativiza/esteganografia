@@ -35,12 +35,12 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/1528565638/pgm.o \
 	${OBJECTDIR}/_ext/1528565638/testcodificar.o \
 	${OBJECTDIR}/_ext/1528565638/testimagen.o \
 	${OBJECTDIR}/Imagen.o \
 	${OBJECTDIR}/byte.o \
-	${OBJECTDIR}/main.o
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/pgm.o
 
 
 # C Compiler Flags
@@ -67,11 +67,6 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/esteganografia: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/esteganografia ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/1528565638/pgm.o: ../../Escritorio/esteganografia\ \(alumnos\)/esteganografia\ \(alumnos\)/src/pgm.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/1528565638
-	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1528565638/pgm.o ../../Escritorio/esteganografia\ \(alumnos\)/esteganografia\ \(alumnos\)/src/pgm.cpp
-
 ${OBJECTDIR}/_ext/1528565638/testcodificar.o: ../../Escritorio/esteganografia\ \(alumnos\)/esteganografia\ \(alumnos\)/src/testcodificar.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1528565638
 	${RM} "$@.d"
@@ -96,6 +91,11 @@ ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
+
+${OBJECTDIR}/pgm.o: pgm.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/pgm.o pgm.cpp
 
 # Subprojects
 .build-subprojects:

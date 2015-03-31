@@ -6,14 +6,14 @@
                    projectFiles="true">
       <itemPath>Imagen.h</itemPath>
       <itemPath>byte.h</itemPath>
-      <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/include/pgm.h</itemPath>
+      <itemPath>pgm.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
-      <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/degradado.pgm</itemPath>
-      <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/lena.pgm</itemPath>
-      <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/ojo.pgm</itemPath>
+      <itemPath>degradado.pgm</itemPath>
+      <itemPath>lena.pgm</itemPath>
+      <itemPath>ojo.pgm</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -21,7 +21,7 @@
       <itemPath>Imagen.cpp</itemPath>
       <itemPath>byte.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
-      <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/pgm.cpp</itemPath>
+      <itemPath>pgm.cpp</itemPath>
       <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/testcodificar.cpp</itemPath>
       <itemPath>../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/testimagen.cpp</itemPath>
     </logicalFolder>
@@ -47,31 +47,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/degradado.pgm"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/lena.pgm"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/ojo.pgm"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/include/pgm.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/pgm.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/testcodificar.cpp"
             ex="false"
             tool="1"
@@ -90,7 +65,17 @@
       </item>
       <item path="byte.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="degradado.pgm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lena.pgm" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ojo.pgm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pgm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pgm.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -113,31 +98,6 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/degradado.pgm"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/lena.pgm"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/imagenes/ojo.pgm"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/include/pgm.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/pgm.cpp"
-            ex="false"
-            tool="1"
-            flavor2="0">
-      </item>
       <item path="../../Escritorio/esteganografia (alumnos)/esteganografia (alumnos)/src/testcodificar.cpp"
             ex="false"
             tool="1"
@@ -156,7 +116,17 @@
       </item>
       <item path="byte.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="degradado.pgm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="lena.pgm" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ojo.pgm" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pgm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="pgm.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>

@@ -9,9 +9,12 @@
         <group>
             <file>file:/home/scldev/NetBeansProjects/esteganografia/byte.cpp</file>
             <file>file:/home/scldev/NetBeansProjects/esteganografia/main.cpp</file>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/Imagen.h</file>
+            <file>file:/home/scldev/Escritorio/esteganografia%20(alumnos)/esteganografia%20(alumnos)/include/pgm.h</file>
+            <file>file:/home/scldev/NetBeansProjects/esteganografia/Imagen.cpp</file>
             <file>file:/home/scldev/Escritorio/esteganografia%20(alumnos)/esteganografia%20(alumnos)/src/pgm.cpp</file>
-            <file>file:/home/scldev/NetBeansProjects/esteganografia/imagen.h</file>
-            <file>file:/home/scldev/NetBeansProjects/esteganografia/imagen.cpp</file>
+            <file>file:/home/scldev/Escritorio/esteganografia%20(alumnos)/esteganografia%20(alumnos)/src/testimagen.cpp</file>
+            <file>file:/home/scldev/Escritorio/esteganografia%20(alumnos)/esteganografia%20(alumnos)/src/testcodificar.cpp</file>
             <file>file:/home/scldev/NetBeansProjects/esteganografia/byte.h</file>
         </group>
     </open-files>
